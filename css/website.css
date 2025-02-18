@@ -1,0 +1,54 @@
+body{
+    background: rgb(171, 197, 186);
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+#title{
+    color:rgb(2, 49, 49);
+    font-family:"Lato";
+}
+h2{
+    color: blue;
+    font-family: "Inconsolata";
+}
+#contact-us{
+    color: green;
+}
+.services{
+    color:red;
+}
+li:nth-child(2){
+    color:purple;
+}
+li:last-child{
+    color:green;
+}
+#google-link:hover{
+    color:yellow
+}
+#google-link:link{
+    color:yellow;
+}
+#google-link:visited{
+    color:red;
+}
+input:focus{
+    background-color: grey;
+}
+img[src^="../image"]{
+    border:10px solid black
+}
+#contact-us:hover{
+    text-decoration: underline;
+    color:blue
+}
+#cssimage{
+    background: url("../images/css1.jpg");
+    height: 150px;
+    width:100%;
+    background-repeat: no-repeat;
+}
+#lineargradient{
+    height: 100px;
+    background: linear-gradient(to right,red,green,yellow,orange,blue);
+}
