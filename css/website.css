@@ -36,7 +36,10 @@ input:focus{
     background-color: grey;
 }
 img[src^="../image"]{
-    border:10px solid black
+    border:10px solid black;
+    padding: 10px;
+    float:right;
+    margin: 20px;
 }
 #contact-us:hover{
     text-decoration: underline;
@@ -51,4 +54,25 @@ img[src^="../image"]{
 #lineargradient{
     height: 100px;
     background: linear-gradient(to right,red,green,yellow,orange,blue);
+    border: 10px solid black;
+    margin-top: 10px;
+    padding-left: 50%;
+    align-items: center;
 }
+/* table{
+    display:none
+} */
+ .container-item{
+    background-color: green;
+    height:50px;
+    width:40px;
+    padding:10px;
+    align-items: center;
+    margin:10px
+
+ }
+ .container{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap-reverse; 
+ }
